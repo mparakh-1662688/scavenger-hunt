@@ -1,0 +1,24 @@
+{
+  "name": "NodeExpressBase",
+  "version": "1.0.0",
+  "description": "Node express base application boilerplate.",
+  "main": "boot.js",
+  "scripts": {
+    "start": "node boot.js",
+    "test": "mocha 'spec/*.spec.js'"
+  },
+  "author": "Mohneel Parakh",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.6.8",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
+  }
+}
